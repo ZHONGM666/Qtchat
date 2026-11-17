@@ -1,0 +1,61 @@
+[
+  {
+    "name": "thread-pool",
+    "tag": "v5.1.0",
+    "files": [
+      {
+        "sha256": "50e9f4ebd7b479417e34361e411f7973f3b23274f09a988e8ca287df878f707b",
+        "url": "https://raw.githubusercontent.com/bshoshany/thread-pool/bd4533f1f70c2b975cbd5769a60d8eaaea1d2233/include/BS_thread_pool.hpp",
+        "path": "include/BS_thread_pool.hpp"
+      },
+      {
+        "sha256": "712a867cc12ebfcdecf6cea097f5aa7ec5acaa435a8f818c9f370960df35acbf",
+        "url": "https://raw.githubusercontent.com/bshoshany/thread-pool/bd4533f1f70c2b975cbd5769a60d8eaaea1d2233/LICENSE.txt",
+        "path": "LICENSE.txt"
+      }
+    ],
+    "repository": "https://github.com/bshoshany/thread-pool",
+    "commit": "bd4533f1f70c2b975cbd5769a60d8eaaea1d2233"
+  },
+  {
+    "name": "json",
+    "tag": "v3.12.0",
+    "files": [
+      {
+        "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63",
+        "url": "https://raw.githubusercontent.com/nlohmann/json/55f93686c01528224f448c19128836e7df245f72/single_include/nlohmann/json.hpp",
+        "path": "single_include/nlohmann/json.hpp"
+      },
+      {
+        "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603",
+        "url": "https://raw.githubusercontent.com/nlohmann/json/55f93686c01528224f448c19128836e7df245f72/LICENSE.MIT",
+        "path": "LICENSE.MIT"
+      }
+    ],
+    "repository": "https://github.com/nlohmann/json",
+    "commit": "55f93686c01528224f448c19128836e7df245f72"
+  },
+  {
+    "name": "muduo",
+    "tag": "v2.0.3",
+    "files": [
+      {
+        "sha256": "c2883a04e9eb176db573d47b467b93bb1d0d333d2d248ccecd2c29f43842b715",
+        "url": "https://raw.githubusercontent.com/chenshuo/muduo/f29ca0ebc2f3b0ab61c1be08482a5524334c3d6f/examples/idleconnection/echo.h",
+        "path": "examples/idleconnection/echo.h"
+      },
+      {
+        "sha256": "bc2d916c1479ab938f319016ecb34dbfc6313958ce7db0470cacaddc64e616b6",
+        "url": "https://raw.githubusercontent.com/chenshuo/muduo/f29ca0ebc2f3b0ab61c1be08482a5524334c3d6f/examples/idleconnection/echo.cc",
+        "path": "examples/idleconnection/echo.cc"
+      },
+      {
+        "sha256": "cbadb5a1c87b25a775817ead16afd27ffc2c5314b54c17638291caf7cb431ea3",
+        "url": "https://raw.githubusercontent.com/chenshuo/muduo/f29ca0ebc2f3b0ab61c1be08482a5524334c3d6f/License",
+        "path": "License"
+      }
+    ],
+    "repository": "https://github.com/chenshuo/muduo",
+    "commit": "f29ca0ebc2f3b0ab61c1be08482a5524334c3d6f"
+  }
+]

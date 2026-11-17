@@ -1,0 +1,35 @@
+QWidget { font-family: "Noto Sans CJK SC", "Microsoft YaHei"; font-size: 14px; color: #252637; }
+QMainWindow { background: #f8f9ff; }
+QWidget#titleBar { background: #edf0fc; border-bottom: 1px solid #e1e3ef; }
+QLabel#windowBrand { font-size: 21px; font-weight: 700; }
+QPushButton { padding: 8px 14px; border: 1px solid #dedfed; border-radius: 8px; background: #ffffff; }
+QPushButton:hover { background: #efedff; border-color: #b8afff; }
+QPushButton:disabled { color: #a4a7b5; background: #eeeff6; border-color: #e6e7ef; }
+QPushButton[primary="true"] { background: #1466e9; color: white; border: 0; font-size: 18px; font-weight: 600; }
+QPushButton[primary="true"]:hover { background: #2877f3; }
+QPushButton[primary="true"]:disabled { background: #b2c7ec; }
+QPushButton[link="true"] { color: #6c61c8; background: transparent; border: 0; padding: 3px; }
+QLineEdit { background: #ffffff; border: 1px solid #d6d9e6; border-radius: 9px; padding: 6px 10px; selection-background-color: #7b69f4; font-size: 16px; }
+QLineEdit:focus { border: 2px solid #2478ee; }
+QWidget#loginPage { background: #ffffff; }
+QLabel#brandTitle { font-size: 46px; font-weight: 750; color: #101117; }
+QLabel#brandSubtitle { font-size: 22px; color: #696d7e; }
+QWidget#sidebar { background: #f0f1fc; border-right: 1px solid #e0e2ef; }
+QPushButton[nav="true"] { text-align: left; padding: 12px 13px; background: transparent; border: 0; font-size: 17px; }
+QPushButton[nav="true"]:checked { color: white; background: qlineargradient(x1:0,y1:0,x2:1,y2:1,stop:0 #8370fc,stop:1 #6654e9); }
+QWidget#contactPanel { background: #fafaff; border-right: 1px solid #e1e3ee; }
+QListWidget#conversationList { background: transparent; border: 0; outline: 0; }
+QListWidget#conversationList::item { border-radius: 9px; margin: 2px 7px; }
+QListWidget#conversationList::item:selected { background: #e8e3ff; }
+QLabel#profileName,QLabel#peerName { font-weight: 650; font-size: 19px; }
+QLabel[muted="true"] { color: #7a7d90; font-size: 12px; }
+QWidget#chatHeader { background: #fbfbff; border-bottom: 1px solid #e1e3ef; }
+QScrollArea#messageScroll { background: #f7f8ff; border: 0; }
+QWidget#messageCanvas { background: #f7f8ff; }
+QPlainTextEdit#messageEditor { background: #ffffff; border: 1px solid #d9dcea; border-radius: 11px; padding: 10px; font-size: 16px; }
+QPushButton#sendButton { background: #7460f1; color: #ffffff; border: 0; min-width: 80px; font-size: 16px; }
+QPushButton#sendButton:disabled { background: #c8c2e9; color: #f8f8fc; }
+QWidget#composer { background: #fafaff; border-top: 1px solid #e2e4ef; }
+QScrollBar:vertical { width: 7px; background: transparent; margin: 2px; }
+QScrollBar::handle:vertical { background: #c9cbdc; border-radius: 3px; min-height: 30px; }
+QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical { height: 0; }
