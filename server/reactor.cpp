@@ -245,6 +245,7 @@ struct Reactor::Impl {
     while (::write(wakeup, &one, sizeof(one)) < 0 && errno == EINTR) {
     }
   }
+
   void startNext(std::uint64_t id) {
     if (!alive(id))
       return;
